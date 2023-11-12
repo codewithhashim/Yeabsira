@@ -51,3 +51,13 @@ my_height = 5.11
 is_100 = False
 
 is_lower = True
+
+
+# Concatenation 
+# Adding two strings
+
+greeting1 = "hi "
+greeting2 = "Hellooo "
+
+greeting = greeting1 + greeting2
+print(greeting)
