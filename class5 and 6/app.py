@@ -33,3 +33,21 @@ if 4 > 1:
 # pass
 if 6 > 2:
     pass
+
+# comparison operators:
+# > -> check if something is greater than something else.
+45 > 34
+
+if 34 < 45:
+    print()
+
+# assignment operator
+# 7 = 8
+
+# equality operator
+if 2 == 2:
+    print("yesss it is true")
+
+# not equal 
+if 4 != 8:
+    print("Yes not equal")
