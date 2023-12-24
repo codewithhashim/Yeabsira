@@ -73,3 +73,14 @@ print ("h" in "hello")
 
 # not in operator
 print ("hsdhfj" not in "hello")
+
+
+# List in python
+# syntax
+# name of the list = [list here]
+# index vise [0,1,2,3]
+arr = [1, 3, 5, 7]
+
+# index starts at 0
+# 34 is at index 0, 5 is at 1, 6 at index 2 and so on...
+list_of_elements_to_buy = [34, 5, 6, "string here", True, 45.0]
