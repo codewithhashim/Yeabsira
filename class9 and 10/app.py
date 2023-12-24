@@ -75,7 +75,7 @@ print ("h" in "hello")
 print ("hsdhfj" not in "hello")
 
 
-# List in python: a data type where we can store different types of data under one variable name. This can store any type of data and the list is mutable
+# List in python: a data type where we can store different types of data under one identifier. This can store any type of data and the list is mutable
 # syntax
 # name of the list = [list here]
 # index vise [0,1,2,3]
