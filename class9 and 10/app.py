@@ -75,7 +75,7 @@ print ("h" in "hello")
 print ("hsdhfj" not in "hello")
 
 
-# List in python
+# List in python: a data type where we can store different types of data under one variable name. This can store any type of data and the list is mutable
 # syntax
 # name of the list = [list here]
 # index vise [0,1,2,3]
@@ -84,3 +84,21 @@ arr = [1, 3, 5, 7]
 # index starts at 0
 # 34 is at index 0, 5 is at 1, 6 at index 2 and so on...
 list_of_elements_to_buy = [34, 5, 6, "string here", True, 45.0]
+
+# print a single element in a list.
+print(list_of_elements_to_buy[3])
+# print the entire list
+print(list_of_elements_to_buy)
+# lists are mutable
+list_of_elements_to_buy[3] = "changed string in array"
+print(list_of_elements_to_buy)
+
+# list methods
+# adding something to a list
+list_of_elements_to_buy.append(4336346)
+print(list_of_elements_to_buy)
+list_of_elements_to_buy.remove(34)
+print(list_of_elements_to_buy)
+
+# len() method on a list
+print( len(list_of_elements_to_buy) )
