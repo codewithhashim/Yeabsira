@@ -50,3 +50,26 @@ age = 56
 
 formated_string = "the person name is {} and his age is {}.".format(name_of_person, age)
 print(formated_string)
+
+# immutable -> not changable 
+# strings are immutable
+example = "Hello string"
+
+# reintialize to change the value (mutable)
+example = "helloo string"
+# mutable -> something that can be changed
+print(example)
+
+# index -> position of string or an item in an array (list)
+example2 = "oohoooo this is cool"
+# substring (a sub-sequence of characters in a string)
+example3 = example2[2:]
+print(example3)
+
+
+# boolean expression: It evaluates to either true or false.
+# in operator
+print ("h" in "hello")
+
+# not in operator
+print ("hsdhfj" not in "hello")
