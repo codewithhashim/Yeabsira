@@ -31,8 +31,12 @@ for ij in range(10, 19):
 
 # square brackets []. The list items are enclosed in square brackets.
 my_items = ["hello", 56, 67, "alex", True, [12, 45, 56], ["alex"]]
+
+# accessing a value
+print(my_items[5][2])
 # modifying an array
-my_items[]
+my_items[1] = 99
+# print(my_items)
 
 
 # array of students
@@ -42,3 +46,4 @@ students = [
     [12, 45, 10, 2],
     ["a", "c", "f", "b"]
 ]
+print(students[2][3])
