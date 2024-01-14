@@ -12,7 +12,7 @@ print("Hello")
 # The next block starts from the very beginning of line, no space left at all.
 
 
-if 1==2:
+if 1 == 2:
     print(2)
     print(4)
     print(6)
@@ -23,3 +23,18 @@ if 6 == 6:
     print(8)
     print(8)
     print(8)
+
+
+if 1 == 1:
+    print("yess 1 is equal to 1.")
+    if 2 == 3:
+        print("yes equal.")
+# how are the below two line different than the lines (2) above?
+if 2 == 3:
+    print("yes equal.")
+
+
+for i in range(10):
+    if 1==1:
+        if i == 4:
+            print(i)
