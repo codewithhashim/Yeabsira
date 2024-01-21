@@ -21,7 +21,7 @@ print("Hi, independent")
 
 # an apple is eating me. -> syntax is correct, but it does not make any sense.
 
-# semantic error (defined in doc)
+# semantic error (logical error)(defined in doc)
 
 
 # list (previously well-explained) - a built-in data type
