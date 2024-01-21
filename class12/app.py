@@ -35,6 +35,7 @@ if 2 == 3:
 
 
 for i in range(10):
-    if 1==1:
+    if 14==14:
         if i == 4:
-            print(i)
+            continue
+        print(i)
